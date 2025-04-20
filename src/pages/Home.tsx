@@ -10,10 +10,10 @@ const Home = () => {
       
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
-          <div className="max-w-3xl mx-auto text-center">
+          <div className="max-w-3xl mx-auto text-center mb-10">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">Cyber Security Excellence for Your Business</h2>
             <p className="text-lg text-gray-600 mb-8">
-              At Cyvex Labs, we provide comprehensive cybersecurity services to protect your 
+              At Cyvex Lab, we provide comprehensive cybersecurity services to protect your 
               business against evolving digital threats. Our expert team delivers tailored 
               security solutions designed to safeguard your critical assets and maintain 
               business continuity in an increasingly complex digital landscape.
@@ -25,6 +25,13 @@ const Home = () => {
               holistic approach ensures your organization stays protected against cyber threats.
             </p>
           </div>
+          <div className="flex justify-center">
+            <img
+              src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b"
+              alt="Cybersecurity visualization"
+              className="rounded-lg shadow-lg max-w-[420px] w-full mx-auto"
+            />
+          </div>
         </div>
       </section>
       
@@ -33,7 +40,7 @@ const Home = () => {
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">Why Choose Cyvex Labs?</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6">Why Choose Cyvex Lab?</h2>
             <div className="grid md:grid-cols-3 gap-8 text-left mt-12">
               <div>
                 <h3 className="text-xl font-bold mb-3">Expert Team</h3>

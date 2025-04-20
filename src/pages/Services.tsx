@@ -57,7 +57,7 @@ const Services = () => {
               <img
                 src="https://images.unsplash.com/photo-1518770660439-4636190af475"
                 alt="Cybersecurity services"
-                className="w-full h-full object-cover"
+                className="w-full h-[340px] object-cover"
               />
             </div>
           </div>
@@ -72,7 +72,7 @@ const Services = () => {
               <img
                 src="https://images.unsplash.com/photo-1519389950473-47ba0277781c"
                 alt="Staffing solutions"
-                className="w-full h-full object-cover"
+                className="w-full h-[340px] object-cover"
               />
             </div>
             
@@ -120,8 +120,11 @@ const Services = () => {
                 <Heart size={36} className="text-white m-3" />
               </div>
               <h2 className="text-3xl font-bold mb-4">Healthcare Services</h2>
+              <p className="text-gray-600 mb-4">
+                Our healthcare staffing solutions ensure hospitals and medical facilities have access to the best nurses and healthcare professionals for every department.
+              </p>
               <p className="text-gray-600 mb-6">
-                Our comprehensive healthcare staffing solutions ensure hospitals and medical facilities have access to qualified nursing professionals across various specialties.
+                We provide comprehensive nursing staffing services for various hospital sectors — including ICU, Emergency, Medical-Surgical, Operating Room, Labor & Delivery, Pediatrics, and more — ensuring each unit is staffed with qualified personnel for optimal patient care.
               </p>
               
               <div className="space-y-4">
@@ -129,19 +132,27 @@ const Services = () => {
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
                     <Stethoscope size={20} className="text-cyvex flex-shrink-0 mt-1" />
-                    <span><strong>Hospital Staffing:</strong> Providing qualified nurses for Emergency, ICU, Medical-Surgical, and specialty units.</span>
+                    <span>
+                      <strong>Hospital Staffing:</strong> Providing qualified nurses for Emergency, ICU, Medical-Surgical, Cardiac, and specialty units (including night shifts, per diem, and travel nursing).
+                    </span>
                   </li>
                   <li className="flex items-start gap-3">
                     <Building size={20} className="text-cyvex flex-shrink-0 mt-1" />
-                    <span><strong>Specialized Nursing:</strong> Staffing solutions for Operating Room, Labor & Delivery, Pediatrics, and other specialized departments.</span>
+                    <span>
+                      <strong>Specialized Nursing:</strong> Staffing solutions for the Operating Room, Labor & Delivery, Pediatrics, Oncology, NICU, and other specialized hospital departments.
+                    </span>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle size={20} className="text-cyvex flex-shrink-0 mt-1" />
-                    <span><strong>Travel Nursing:</strong> Connecting healthcare facilities with experienced travel nurses for both short and long-term assignments.</span>
+                    <span>
+                      <strong>Travel Nursing:</strong> Connecting healthcare facilities with experienced travel nurses for both short and long-term assignments.
+                    </span>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle size={20} className="text-cyvex flex-shrink-0 mt-1" />
-                    <span><strong>Per Diem Staffing:</strong> Flexible staffing solutions to meet varying hospital needs and patient volumes.</span>
+                    <span>
+                      <strong>Per Diem Staffing:</strong> Flexible staffing solutions to meet dynamic hospital needs and patient volume changes.
+                    </span>
                   </li>
                 </ul>
               </div>
@@ -151,7 +162,7 @@ const Services = () => {
               <img
                 src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
                 alt="Healthcare services"
-                className="w-full h-[400px] object-cover"
+                className="w-full h-[340px] object-cover"
               />
             </div>
           </div>

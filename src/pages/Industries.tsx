@@ -1,3 +1,4 @@
+
 import { CheckCircle } from "lucide-react";
 
 const industries = [
@@ -21,7 +22,7 @@ const industries = [
       "Telehealth security frameworks",
       "Protected health information (PHI) safeguards",
     ],
-    image: "healthcare.jpg"
+    image: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
   },
   {
     name: "Insurance",
@@ -32,7 +33,7 @@ const industries = [
       "Regulatory compliance frameworks",
       "Advanced fraud prevention systems",
     ],
-    image: "insurance.jpg"
+    image: "https://images.unsplash.com/photo-1524230572899-a752b3835840"
   },
   {
     name: "Manufacturing",
@@ -43,7 +44,7 @@ const industries = [
       "Intellectual property protection",
       "Industrial control system security",
     ],
-    image: "manufacturing.jpg"
+    image: "https://images.unsplash.com/photo-1551038247-3d9af20df552"
   },
   {
     name: "Government",
@@ -54,7 +55,7 @@ const industries = [
       "Compliance with government standards",
       "Citizen data privacy protection",
     ],
-    image: "government.jpg"
+    image: "https://images.unsplash.com/photo-1487958449943-2429e8be8625"
   },
   {
     name: "Education",
@@ -65,7 +66,7 @@ const industries = [
       "Campus network security",
       "Research data protection systems",
     ],
-    image: "education.jpg"
+    image: "https://images.unsplash.com/photo-1493397212122-2b85dda8106b"
   },
 ];
 
@@ -80,7 +81,7 @@ const Industries = () => {
               Industry-Specific Security Solutions
             </h1>
             <p className="text-lg text-gray-600">
-              Cyvex Labs provides tailored cybersecurity solutions across a wide range of industries, addressing the unique challenges and regulatory requirements of each sector.
+              Cyvex Lab provides tailored cybersecurity solutions across a wide range of industries, addressing the unique challenges and regulatory requirements of each sector.
             </p>
           </div>
         </div>
