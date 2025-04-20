@@ -1,5 +1,6 @@
+
 import { Link } from "react-router-dom";
-import { Shield, Users, Heart, CheckCircle, hospital, nursing } from "lucide-react";
+import { Shield, Users, Heart, CheckCircle, Stethoscope, Building } from "lucide-react";
 
 const Services = () => {
   return (
@@ -10,7 +11,7 @@ const Services = () => {
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">Our Services</h1>
             <p className="text-lg text-gray-600">
-              Cyvex Labs provides comprehensive services across three key areas to help organizations build secure, resilient, and efficient operations.
+              Cyvex Lab provides comprehensive services across three key areas to help organizations build secure, resilient, and efficient operations.
             </p>
           </div>
         </div>
@@ -127,11 +128,11 @@ const Services = () => {
                 <h3 className="font-semibold text-xl">Our Healthcare Solutions Include:</h3>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
-                    <hospital className="text-cyvex flex-shrink-0 mt-1" size={20} />
+                    <Stethoscope size={20} className="text-cyvex flex-shrink-0 mt-1" />
                     <span><strong>Hospital Staffing:</strong> Providing qualified nurses for Emergency, ICU, Medical-Surgical, and specialty units.</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <nursing className="text-cyvex flex-shrink-0 mt-1" size={20} />
+                    <Building size={20} className="text-cyvex flex-shrink-0 mt-1" />
                     <span><strong>Specialized Nursing:</strong> Staffing solutions for Operating Room, Labor & Delivery, Pediatrics, and other specialized departments.</span>
                   </li>
                   <li className="flex items-start gap-3">
@@ -163,7 +164,7 @@ const Services = () => {
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold mb-6">Ready to Secure Your Organization?</h2>
             <p className="text-lg mb-8">
-              Contact our team today to discuss how Cyvex Labs can help protect your business with our comprehensive services and solutions.
+              Contact our team today to discuss how Cyvex Lab can help protect your business with our comprehensive services and solutions.
             </p>
             <Link 
               to="/contact" 
