@@ -13,7 +13,7 @@ const technologies = [
       "Real-time monitoring of privileged sessions",
     ],
     icon: ShieldCheck,
-    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085"
+    image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d"
   },
   {
     name: "Saviynt",
@@ -25,7 +25,8 @@ const technologies = [
       "Risk-based access governance",
       "Compliance management and reporting",
     ],
-    icon: ShieldCheck
+    icon: ShieldCheck,
+    image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7"
   },
   {
     name: "CyberArk",
@@ -37,7 +38,8 @@ const technologies = [
       "Application identity management",
       "Threat analytics and detection",
     ],
-    icon: ShieldCheck
+    icon: ShieldCheck,
+    image: "https://images.unsplash.com/photo-1531297484001-80022131f5a1"
   },
   {
     name: "DevOps",
@@ -49,7 +51,8 @@ const technologies = [
       "Container and Kubernetes security",
       "Continuous compliance monitoring",
     ],
-    icon: ShieldCheck
+    icon: ShieldCheck,
+    image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6"
   },
 ];
 

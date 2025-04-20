@@ -17,8 +17,8 @@ const services = [
     link: "/services#staffing"
   },
   {
-    title: "Health Care",
-    description: "Specialized security and compliance solutions for the healthcare industry to protect patient data.",
+    title: "Healthcare Services",
+    description: "Specialized healthcare staffing and security solutions, including nursing staff placement across various hospital departments.",
     icon: Heart,
     link: "/services#healthcare"
   }

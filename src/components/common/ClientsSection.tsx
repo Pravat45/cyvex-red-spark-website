@@ -13,6 +13,8 @@ const clients = [
   { name: "The Home Depot", logo: "home-depot-logo.png" },
   { name: "Johnson & Johnson", logo: "johnson-and-johnson-logo.png" },
   { name: "Walmart", logo: "walmart-logo.png" },
+  { name: "Bank of America", logo: "bank-of-america-logo.png" },
+  { name: "Wells Fargo", logo: "wells-fargo-logo.png" },
 ];
 
 export const ClientsSection = () => {

@@ -41,11 +41,11 @@ export const Header = () => {
         <Link to="/" className="flex items-center">
           <img 
             src={CyvexLogo} 
-            alt="Cyvex Labs Logo" 
+            alt="Cyvex Lab Logo" 
             className="h-10 w-10 mr-3" 
           />
           <span className="text-2xl font-bold text-cyvex">
-            Cyvex Labs
+            Cyvex Lab
           </span>
         </Link>
 

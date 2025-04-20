@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Shield, Users, Heart, CheckCircle } from "lucide-react";
+import { Shield, Users, Heart, CheckCircle, hospital, nursing } from "lucide-react";
 
 const Services = () => {
   return (
@@ -120,27 +120,27 @@ const Services = () => {
               </div>
               <h2 className="text-3xl font-bold mb-4">Healthcare Services</h2>
               <p className="text-gray-600 mb-6">
-                Our dedicated healthcare services focus on securing sensitive patient data, ensuring regulatory compliance, and enabling secure digital transformation in the healthcare sector.
+                Our comprehensive healthcare staffing solutions ensure hospitals and medical facilities have access to qualified nursing professionals across various specialties.
               </p>
               
               <div className="space-y-4">
                 <h3 className="font-semibold text-xl">Our Healthcare Solutions Include:</h3>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
-                    <CheckCircle size={20} className="text-cyvex flex-shrink-0 mt-1" />
-                    <span><strong>HIPAA Compliance:</strong> Ensuring your systems and processes comply with healthcare data protection regulations.</span>
+                    <hospital className="text-cyvex flex-shrink-0 mt-1" size={20} />
+                    <span><strong>Hospital Staffing:</strong> Providing qualified nurses for Emergency, ICU, Medical-Surgical, and specialty units.</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <nursing className="text-cyvex flex-shrink-0 mt-1" size={20} />
+                    <span><strong>Specialized Nursing:</strong> Staffing solutions for Operating Room, Labor & Delivery, Pediatrics, and other specialized departments.</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle size={20} className="text-cyvex flex-shrink-0 mt-1" />
-                    <span><strong>Medical Device Security:</strong> Protecting connected medical devices from cyber threats and unauthorized access.</span>
+                    <span><strong>Travel Nursing:</strong> Connecting healthcare facilities with experienced travel nurses for both short and long-term assignments.</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle size={20} className="text-cyvex flex-shrink-0 mt-1" />
-                    <span><strong>Telehealth Security:</strong> Implementing secure telehealth solutions that protect patient privacy during remote consultations.</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <CheckCircle size={20} className="text-cyvex flex-shrink-0 mt-1" />
-                    <span><strong>EMR/EHR Security:</strong> Securing electronic medical records and healthcare information systems.</span>
+                    <span><strong>Per Diem Staffing:</strong> Flexible staffing solutions to meet varying hospital needs and patient volumes.</span>
                   </li>
                 </ul>
               </div>
@@ -150,7 +150,7 @@ const Services = () => {
               <img
                 src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
                 alt="Healthcare services"
-                className="w-full h-full object-cover"
+                className="w-full h-[400px] object-cover"
               />
             </div>
           </div>
