@@ -1,6 +1,8 @@
+
 import { Link } from "react-router-dom";
 import { ShieldCheck, CheckCircle } from "lucide-react";
 
+// Update the technologies array to use the uploaded image for PAM
 const technologies = [
   {
     name: "PAM (Privileged Access Management)",
@@ -13,7 +15,7 @@ const technologies = [
       "Real-time monitoring of privileged sessions",
     ],
     icon: ShieldCheck,
-    image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d"
+    image: "/lovable-uploads/25efcfbf-738f-47a0-a80c-553e27651d7b.png",
   },
   {
     name: "Saviynt",
@@ -26,7 +28,7 @@ const technologies = [
       "Compliance management and reporting",
     ],
     icon: ShieldCheck,
-    image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7"
+    image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7",
   },
   {
     name: "CyberArk",
@@ -39,7 +41,7 @@ const technologies = [
       "Threat analytics and detection",
     ],
     icon: ShieldCheck,
-    image: "https://images.unsplash.com/photo-1531297484001-80022131f5a1"
+    image: "https://images.unsplash.com/photo-1531297484001-80022131f5a1",
   },
   {
     name: "DevOps",
@@ -52,7 +54,7 @@ const technologies = [
       "Continuous compliance monitoring",
     ],
     icon: ShieldCheck,
-    image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6"
+    image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6",
   },
 ];
 
@@ -65,7 +67,7 @@ const Technologies = () => {
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">Our Technologies</h1>
             <p className="text-lg text-gray-600">
-              Cyvex Labs leverages industry-leading technologies to deliver robust security solutions that protect your organization's most valuable assets.
+              Cyvex Lab leverages industry-leading technologies to deliver robust security solutions that protect your organization's most valuable assets.
             </p>
           </div>
         </div>
@@ -102,10 +104,20 @@ const Technologies = () => {
                   </div>
                 </div>
                 
-                <div className="md:w-1/2 bg-gray-100 rounded-xl p-8 h-full">
-                  <div className="h-64 flex items-center justify-center">
-                    <div className="text-4xl md:text-6xl text-cyvex/20 font-bold text-center">{tech.name}</div>
+                {/* Technology image with overlayed faded name */}
+                <div className="md:w-1/2 bg-gray-100 rounded-xl p-0 h-full relative flex items-center justify-center overflow-hidden min-h-[280px] md:min-h-[256px]">
+                  <img
+                    src={tech.image}
+                    alt={tech.name}
+                    className="absolute inset-0 w-full h-full object-cover opacity-90"
+                  />
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <span className="text-3xl md:text-5xl text-white/60 font-bold text-center drop-shadow-lg break-words px-4 select-none">
+                      {tech.name}
+                    </span>
                   </div>
+                  {/* Empty div for positioning */}
+                  <div className="invisible">image</div>
                 </div>
               </div>
             ))}
@@ -135,3 +147,4 @@ const Technologies = () => {
 };
 
 export default Technologies;
+
