@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { 
@@ -17,6 +16,7 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import { useIsMobile } from "@/hooks/use-mobile";
+import CyvexLogo from "@/assets/cyvex-logo.svg";
 
 const navItems = [
   { name: "Home", path: "/", icon: Home },
@@ -37,9 +37,14 @@ export const Header = () => {
   return (
     <header className="sticky top-0 z-50 w-full bg-white/95 backdrop-blur-sm border-b border-gray-100 shadow-sm">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-        {/* Logo */}
+        {/* Logo and Name */}
         <Link to="/" className="flex items-center">
-          <span className="text-2xl font-bold bg-gradient-to-r from-cyvex to-cyvex-light bg-clip-text text-transparent">
+          <img 
+            src={CyvexLogo} 
+            alt="Cyvex Labs Logo" 
+            className="h-10 w-10 mr-3" 
+          />
+          <span className="text-2xl font-bold text-cyvex">
             Cyvex Labs
           </span>
         </Link>
