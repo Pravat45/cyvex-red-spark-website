@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 import { ShieldCheck, CheckCircle } from "lucide-react";
 
@@ -13,7 +12,8 @@ const technologies = [
       "Comprehensive audit trails",
       "Real-time monitoring of privileged sessions",
     ],
-    icon: ShieldCheck
+    icon: ShieldCheck,
+    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085"
   },
   {
     name: "Saviynt",

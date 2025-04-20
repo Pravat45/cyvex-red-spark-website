@@ -1,4 +1,3 @@
-
 import { CheckCircle } from "lucide-react";
 
 const industries = [
@@ -11,7 +10,7 @@ const industries = [
       "Fraud detection and prevention solutions",
       "Secure transaction processing systems",
     ],
-    image: "finance.jpg"
+    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f"
   },
   {
     name: "Healthcare",
@@ -93,6 +92,13 @@ const Industries = () => {
           <div className="grid md:grid-cols-2 gap-16">
             {industries.map((industry, index) => (
               <div key={index} className="border border-gray-100 rounded-xl p-8 shadow-sm">
+                <div className="mb-6 rounded-lg overflow-hidden">
+                  <img
+                    src={industry.image}
+                    alt={industry.name}
+                    className="w-full h-48 object-cover"
+                  />
+                </div>
                 <h2 className="text-2xl font-bold mb-4">{industry.name}</h2>
                 <p className="text-gray-600 mb-6">
                   {industry.description}

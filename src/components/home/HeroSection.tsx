@@ -6,6 +6,16 @@ import { ShieldCheck } from "lucide-react";
 export const HeroSection = () => {
   return (
     <section className="relative bg-white overflow-hidden">
+      {/* Hero background image */}
+      <div 
+        className="absolute inset-0 z-0 opacity-10"
+        style={{
+          backgroundImage: 'url(https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=2000)',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+        }}
+      />
+      
       {/* Red accent background */}
       <div className="absolute top-0 right-0 w-1/3 h-full bg-gradient-to-l from-cyvex-light/10 via-cyvex/5 to-transparent" />
       

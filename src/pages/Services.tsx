@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 import { Shield, Users, Heart, CheckCircle } from "lucide-react";
 
@@ -53,10 +52,12 @@ const Services = () => {
               </div>
             </div>
             
-            <div className="md:w-1/2 bg-gray-100 rounded-xl p-8 h-full">
-              <div className="h-80 flex items-center justify-center">
-                <div className="text-6xl text-cyvex/20 font-bold">Cyber Security Services</div>
-              </div>
+            <div className="md:w-1/2 rounded-xl overflow-hidden">
+              <img
+                src="https://images.unsplash.com/photo-1518770660439-4636190af475"
+                alt="Cybersecurity services"
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
         </div>
@@ -66,10 +67,12 @@ const Services = () => {
       <section id="staffing" className="py-16 bg-gray-50 scroll-mt-24">
         <div className="container mx-auto px-4">
           <div className="flex flex-col-reverse md:flex-row gap-12 items-center">
-            <div className="md:w-1/2 bg-white rounded-xl p-8 h-full">
-              <div className="h-80 flex items-center justify-center">
-                <div className="text-6xl text-cyvex/20 font-bold">Staffing Solutions</div>
-              </div>
+            <div className="md:w-1/2 rounded-xl overflow-hidden">
+              <img
+                src="https://images.unsplash.com/photo-1519389950473-47ba0277781c"
+                alt="Staffing solutions"
+                className="w-full h-full object-cover"
+              />
             </div>
             
             <div className="md:w-1/2">
@@ -143,10 +146,12 @@ const Services = () => {
               </div>
             </div>
             
-            <div className="md:w-1/2 bg-gray-100 rounded-xl p-8 h-full">
-              <div className="h-80 flex items-center justify-center">
-                <div className="text-6xl text-cyvex/20 font-bold">Healthcare Services</div>
-              </div>
+            <div className="md:w-1/2 rounded-xl overflow-hidden">
+              <img
+                src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
+                alt="Healthcare services"
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
         </div>
