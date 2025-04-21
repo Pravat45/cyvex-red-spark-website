@@ -226,7 +226,7 @@ const Contact = () => {
             {/* In a production site, you would embed an actual Google Map here */}
             <div className="w-full h-full flex items-center justify-center bg-gray-100">
               <div className="text-center">
-                <h3 className="text-xl font-bold mb-2">Cyvex Labs Headquarters</h3>
+                <h3 className="text-xl font-bold mb-2">Cyvex Lab Headquarters</h3>
                 <p className="text-gray-600">
                   5725 corporate way ste 206, West Palm Beach, FL 33407, United States
                 </p>

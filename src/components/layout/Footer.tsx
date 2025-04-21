@@ -18,7 +18,7 @@ export const Footer = () => {
           {/* Company Info */}
           <div>
             <h3 className="text-xl font-bold bg-gradient-to-r from-cyvex to-cyvex-light bg-clip-text text-transparent mb-4">
-              Cyvex Labs
+              Cyvex Lab
             </h3>
             <p className="text-gray-300 mb-4">
               Providing advanced cybersecurity services to protect your business
@@ -133,7 +133,7 @@ export const Footer = () => {
         {/* Copyright */}
         <div className="border-t border-gray-800 mt-12 pt-6 text-center">
           <p className="text-gray-400">
-            &copy; {new Date().getFullYear()} Cyvex Labs. All rights reserved.
+            &copy; {new Date().getFullYear()} Cyvex Lab. All rights reserved.
           </p>
         </div>
       </div>

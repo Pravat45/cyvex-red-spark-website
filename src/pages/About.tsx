@@ -9,7 +9,7 @@ const About = () => {
       <section className="bg-gray-50 py-16 md:py-24">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">About Cyvex Labs</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">About Cyvex Lab</h1>
             <p className="text-lg text-gray-600">
               We are a leading cybersecurity company dedicated to protecting organizations 
               from evolving digital threats through innovative solutions and expert services.
@@ -25,13 +25,13 @@ const About = () => {
             <div>
               <h2 className="text-3xl font-bold mb-6">Our Story</h2>
               <p className="text-gray-600 mb-4">
-                Founded by security experts with decades of industry experience, Cyvex Labs was established with a clear mission: to make advanced cybersecurity accessible to organizations of all sizes.
+                Founded by security experts with decades of industry experience, Cyvex Lab was established with a clear mission: to make advanced cybersecurity accessible to organizations of all sizes.
               </p>
               <p className="text-gray-600 mb-4">
                 We recognized that as digital threats evolved, many organizations struggled to keep pace with the changing security landscape. Our team set out to bridge this gap by providing comprehensive security solutions that combine cutting-edge technology with practical, hands-on expertise.
               </p>
               <p className="text-gray-600">
-                Today, Cyvex Labs serves clients across various industries, helping them build robust security frameworks that protect their critical assets and enable them to focus on their core business with confidence.
+                Today, Cyvex Lab serves clients across various industries, helping them build robust security frameworks that protect their critical assets and enable them to focus on their core business with confidence.
               </p>
             </div>
             <div className="flex justify-center">
@@ -95,7 +95,7 @@ const About = () => {
       {/* Why Choose Us */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-12 text-center">Why Choose Cyvex Labs</h2>
+          <h2 className="text-3xl font-bold mb-12 text-center">Why Choose Cyvex Lab</h2>
           
           <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-white p-8 rounded-xl shadow-sm border border-gray-100">
@@ -179,7 +179,7 @@ const About = () => {
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold mb-6">Ready to Partner with Us?</h2>
             <p className="text-lg mb-8">
-              Contact our team today to discuss how Cyvex Labs can help secure your organization and protect your valuable assets.
+              Contact our team today to discuss how Cyvex Lab can help secure your organization and protect your valuable assets.
             </p>
             <Link 
               to="/contact" 

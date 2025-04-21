@@ -66,7 +66,7 @@ const Blog = () => {
       <section className="bg-gray-50 py-16 md:py-24">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">Cyvex Labs Blog</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">Cyvex Lab Blog</h1>
             <p className="text-lg text-gray-600">
               Insights, updates, and expert perspectives on cybersecurity, identity management, and more.
             </p>

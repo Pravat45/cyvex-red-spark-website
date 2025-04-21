@@ -130,7 +130,7 @@ const Work = () => {
                 </div>
               </div>
               <p className="text-gray-600 italic mb-4">
-                "Cyvex Labs transformed our security operations. Their team provided expert guidance and implemented solutions that significantly enhanced our security posture. We now have confidence in our ability to protect our sensitive data and systems."
+                "Cyvex Lab transformed our security operations. Their team provided expert guidance and implemented solutions that significantly enhanced our security posture. We now have confidence in our ability to protect our sensitive data and systems."
               </p>
               <div>
                 <p className="font-bold">John Smith</p>
@@ -149,7 +149,7 @@ const Work = () => {
                 </div>
               </div>
               <p className="text-gray-600 italic mb-4">
-                "The team at Cyvex Labs understood our unique healthcare security challenges. They implemented solutions that not only ensured our HIPAA compliance but also enhanced our overall security framework. Their expertise has been invaluable to our organization."
+                "The team at Cyvex Lab understood our unique healthcare security challenges. They implemented solutions that not only ensured our HIPAA compliance but also enhanced our overall security framework. Their expertise has been invaluable to our organization."
               </p>
               <div>
                 <p className="font-bold">Sarah Johnson</p>
@@ -166,7 +166,7 @@ const Work = () => {
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold mb-6">Ready to Transform Your Security?</h2>
             <p className="text-lg mb-8">
-              Contact us today to discuss how Cyvex Labs can help secure your organization and protect your most valuable assets.
+              Contact us today to discuss how Cyvex Lab can help secure your organization and protect your most valuable assets.
             </p>
             <Link 
               to="/contact" 

@@ -20,7 +20,7 @@ export const Chatbot = () => {
     if (isOpen && messages.length === 0) {
       setMessages([
         {
-          text: "Hi there! I'm the Cyvex Labs virtual assistant. How can I help you today?",
+          text: "Hi there! I'm the Cyvex Lab virtual assistant. How can I help you today?",
           isBot: true,
           timestamp: new Date(),
         },
@@ -77,7 +77,7 @@ export const Chatbot = () => {
         <div className="bg-cyvex text-white p-4 rounded-t-lg flex items-center justify-between">
           <div className="flex items-center gap-2">
             <MessageSquare size={20} />
-            <h3 className="font-medium">Cyvex Labs Chat</h3>
+            <h3 className="font-medium">Cyvex Lab Chat</h3>
           </div>
           <button
             onClick={() => setIsOpen(false)}

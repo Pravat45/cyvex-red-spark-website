@@ -1,20 +1,33 @@
 
 import { useRef } from "react";
+import informatica from "../../assets/infomatica.jpeg"
+import kforce from "../../assets/kforce.png";
+import oxford from "../../assets/oxford.png";
+import cbts from "../../assets/cbts.png";
+import fis from "../../assets/fis.png";
+import cardinal from "../../assets/cardinal.png";
+import judge from "../../assets/judge.png";
+import beacon from "../../assets/beacon.jpeg";
+import homedepot from "../../assets/homeDepot.jpg";
+import johnson from "../../assets/jhonson.png";
+import walmart from "../../assets/walmart.png";
+import bofa from "../../assets/bankOfAmerica.png";
+import wells from "../../assets/wellsFargo.png";
 
 const clients = [
-  { name: "Informatica", logo: "informatica-logo.png" },
-  { name: "Kforce", logo: "kforce-logo.png" },
-  { name: "Oxford Consulting", logo: "oxford-logo.png" },
-  { name: "CBTS", logo: "cbts-logo.png" },
-  { name: "FIS", logo: "fis-logo.png" },
-  { name: "Cardinal Health", logo: "cardinal-health-logo.png" },
-  { name: "Judge Group", logo: "judge-group-logo.png" },
-  { name: "Beacon Hill Staffing", logo: "beacon-hill-logo.png" },
-  { name: "The Home Depot", logo: "home-depot-logo.png" },
-  { name: "Johnson & Johnson", logo: "johnson-and-johnson-logo.png" },
-  { name: "Walmart", logo: "walmart-logo.png" },
-  { name: "Bank of America", logo: "bank-of-america-logo.png" },
-  { name: "Wells Fargo", logo: "wells-fargo-logo.png" },
+  { name: "Informatica", logo: informatica },
+  { name: "Kforce", logo: kforce },
+  { name: "Oxford Consulting", logo: oxford },
+  { name: "CBTS", logo: cbts },
+  { name: "FIS", logo: fis },
+  { name: "Cardinal Health", logo: cardinal },
+  { name: "Judge Group", logo: judge },
+  { name: "Beacon Hill Staffing", logo: beacon },
+  { name: "The Home Depot", logo: homedepot },
+  { name: "Johnson & Johnson", logo: johnson },
+  { name: "Walmart", logo: walmart },
+  { name: "Bank of America", logo: bofa },
+  { name: "Wells Fargo", logo: wells },
 ];
 
 export const ClientsSection = () => {
@@ -44,7 +57,11 @@ export const ClientsSection = () => {
               >
                 {/* We're using a text placeholder since actual logos aren't available */}
                 <div className="w-28 h-28 flex items-center justify-center">
-                  <span className="text-lg font-bold text-gray-800">{client.name}</span>
+                  <img 
+                    src={client.logo} 
+                    alt={`${client.name} logo`}
+                    className="max-h-full max-w-full object-contain"
+                  />
                 </div>
               </div>
             ))}

@@ -32,7 +32,7 @@ export const HeroSection = () => {
             </h1>
             
             <p className="text-lg text-gray-600 mb-8 max-w-lg">
-              Cyvex Labs provides comprehensive cybersecurity services to protect your 
+              Cyvex Lab provides comprehensive cybersecurity services to protect your 
               organization against evolving cyber threats. Our expert team delivers 
               tailored solutions for businesses of all sizes.
             </p>
