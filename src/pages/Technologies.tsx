@@ -15,7 +15,7 @@ const technologies = [
       "Real-time monitoring of privileged sessions",
     ],
     icon: ShieldCheck,
-    image: "/lovable-uploads/25efcfbf-738f-47a0-a80c-553e27651d7b.png",
+    image: "https://www.lepide.com/blog/wp-content/uploads/2022/10/what-is-pam.jpg",
   },
   {
     name: "Saviynt",
